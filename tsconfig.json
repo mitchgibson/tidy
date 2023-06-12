@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "esModuleInterop": false,
+        "declaration": true,
+        "declarationDir": "./types,",
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "preserveSymlinks": true
+    },
+}
